@@ -71,6 +71,7 @@ nav a.active {
 }
 
 .footer-section {
+    clear:both;
     max-width: 1000px;
     width: 100%;
     background-color: #333;
@@ -79,11 +80,13 @@ nav a.active {
 }
 
 .footer-section a {
+    clear: both;
     color: red;
     text-decoration: none;
 }
 
 .footer-section a:hover {
+    clear: both;
     text-decoration: underline;
 }
 
@@ -91,8 +94,10 @@ nav a.active {
     height: 800px;
     display:flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;*/
+    /*align-items: center; */
+    justify-content: flex-start;
+    align-items: flex-start;
     background-color: #f5f5f5;
 }
 
@@ -122,9 +127,25 @@ nav a.active {
 
 }
 
+.about-me{
+    text-align: center;
+    width: 200px;
+    height: 800px;
+   background-color: #9acef0;
+}
+.user-icon {
+    width: 100px;
+    height: 100px;
+}
+
 .menu-icon{
     width: 40px;
     height: 40px;
+}
+ 
+p {
+    margin-left: 20px; 
+    text-align: left;
 }
 </style>
 </head>
@@ -144,8 +165,20 @@ nav a.active {
 
 <div class="container">
     <h1>Welcome to the Webpage</h1>
-    <p>This is the central area of the webpage where you can include your content.</p>
-
+    <div class="content">
+        <div class="about-me">
+            <h2>About Me</h2>
+            <img src="./images/user.png" class="user-icon">
+            </br></br>
+            <p>Name: Naroa Rojo</p>
+            <p>Age: 18 years</p>
+            <p>City: Madrid</p>
+            <p>Info: 1st year Computer science student </p>
+            <p>University: Universidad Francisco de Vitoria</p>
+            <img src="./images/logo-uni.png" class="user-icon">
+            
+        </div>
+    </div>
     <div class="menu">
         <div class="menu-content">
             <img src="./images/location-white.png" alt="Location Icon" class="menu-icon">
