@@ -9,3 +9,4 @@ This is the repository for activity III
 - Added images for content section.
 - Added content and menu.
 - Added inside content, about me. With a user image and the logo of the university.
+- Added main content and a brief description.

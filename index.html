@@ -93,12 +93,21 @@ nav a.active {
 .content{
     height: 800px;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     /* justify-content: center;*/
     /*align-items: center; */
     justify-content: flex-start;
     align-items: flex-start;
     background-color: #f5f5f5;
+    margin: 0 auto;
+}
+
+.main-content{
+    float: left;
+    text-align: center;
+    width: 800px;
+    height: 800px;
+   background-color: #f09ad0;
 }
 
 .menu{
@@ -176,9 +185,16 @@ p {
             <p>Info: 1st year Computer science student </p>
             <p>University: Universidad Francisco de Vitoria</p>
             <img src="./images/logo-uni.png" class="user-icon">
-            
         </div>
+            
+        <div class="main-content">
+            <h2 style="text-align: left; margin-left: 20px;">Home</h2>
+            <h3 style="text-align: left; margin-left: 20px;">Brief description:</h3>
+            <p>My name is Naroa and this is my first web page using Git hub. This is part of the Activiy III of the course: Fundamentos de la Ingeniería Informática. As a student Computer science student I am really excited to learn how to create web pages as I find them really interesting. I hope that you like this one!</p>
+        </div>
+
     </div>
+    
     <div class="menu">
         <div class="menu-content">
             <img src="./images/location-white.png" alt="Location Icon" class="menu-icon">
